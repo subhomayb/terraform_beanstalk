@@ -1,7 +1,7 @@
 # Prompt for VPC ID and deployment language
 variable "vpc_id" {
   description = "ID of the VPC where the Elastic Beanstalk environment will be deployed"
-  default = "vpc-0a706eb0a6926de49"
+  default = "vpc-0a706eb0a6926de59"
 }
 
 variable "deployment_language" {
@@ -17,7 +17,7 @@ variable "region" {
 
 variable "subnet1" {
     description = "Subnet ID of first zone"
-    default = ["subnet-0ab7e8783501a2c1d" , "subnet-006299ba4503d945b"]
+    default = ["subnet-0ab7e8783501a2c34" , "subnet-006299ba4503d9467"]
   
 }
 
