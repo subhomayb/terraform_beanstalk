@@ -18,15 +18,18 @@ Before you begin, make sure you have the following:
    git clone https://github.com/subhomayb/terraform_beanstalk.git
 
 2. Navigate to the cloned directory:
-   
+
+   ```bash
    cd terraform_beanstalk
 
 4. Initialize the Terraform Configuration:
-   
+
+   ```bash
    terraform init
 
 6. Review and change the variables.tf with your requirements
 
 7. Deploy Elastic Beanstalk:
-   
+
+   ```bash
    terraform apply
